@@ -30,3 +30,6 @@ public class CRUD {
     Scanner inputConsole = new Scanner(System.in);
     Scanner inputINT = new Scanner(System.in);
     
+    //menu
+    public void showmenu(){
+        
