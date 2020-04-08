@@ -26,7 +26,19 @@ public class UTS_SEMESTER4 {
     System.out.println("KEMBALI ");
     System.out.println("PILIHAN> ");
 
+            int pilihan = Integer.parseInt(input.nextLine());
+            
+            switch(pilihan) {
+                case 0:
+                    System.exit(0);
+                    break;
+                case 1:
+                    crud.showMenu();
+                    break;
 
+                default:
+                    System.out.println("Pilihan Anda Salah!");
+                
         }
     }
 }
