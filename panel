@@ -189,3 +189,4 @@ public class panel extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     // End of variables declaration                   
 }
+gui
