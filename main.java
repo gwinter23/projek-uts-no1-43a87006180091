@@ -20,11 +20,11 @@ public class UTS_SEMESTER4 {
     
              CRUD crud = new CRUD();
         
-    System.out.println
-    System.out.println
-    System.out.println
-    System.out.println
-    System.out.println
+    System.out.println("\n===MENU UTAMA"====");
+    System.out.println("1. CRUD ABSEN");
+    System.out.println("0. Keluar");
+    System.out.println("KEMBALI ");
+    System.out.println("PILIHAN> ");
 
 
         }
