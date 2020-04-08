@@ -23,8 +23,8 @@ public class CRUD {
     static Statement stmt;
     static ResultSet rs;
     
-    int Tahun;
-    String Judul, Pengarang, Penerbit, IdBuku;
+    int tahun;
+    String judul, pengarang, penerbit, idBuku;
     
     
     Scanner inputConsole = new Scanner(System.in);
@@ -32,4 +32,6 @@ public class CRUD {
     
     //menu
     public void showmenu(){
-        
+        System.out.println
+        System.out.println
+        System.out.println
