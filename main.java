@@ -16,7 +16,10 @@ import java.util.Scanner;
 public class UTS_SEMESTER4 {
     public static void main(String[] args) {
       
-     
+             Scanner input = new Scanner(System.in);
+    
+             CRUD crud = new CRUD();
+        
 
         }
     }
