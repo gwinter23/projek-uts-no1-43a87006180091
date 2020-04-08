@@ -32,6 +32,9 @@ public class CRUD {
     
     //menu
     public void showmenu(){
-        System.out.println
-        System.out.println
-        System.out.println
+        System.out.println("\n========= MENU UTAMA =========");
+        System.out.println("1. Insert Data");
+        System.out.println("2. Show Data");
+        System.out.println("3. Edit Data");
+        System.out.println("4. Delete Data");
+        
