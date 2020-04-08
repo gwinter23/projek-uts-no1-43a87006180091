@@ -40,6 +40,50 @@ public class CRUD {
         System.out.println("0. Keluar");
         System.out.println("");
         System.out.print("PILIHAN> ");
+          try {
+            int pilihan = Integer.parseInt(inputConsole.next());
+            
+            switch(pilihan) {
+                case 0:
+                    System.exit(0);
+                    break;
+                case 1:
+                    insert();
+                    break;
+                case 2:
+                    showData();
+                    break;
+                case 3:
+                    update();
+                    break;
+                case 4:
+                    delete();
+                    break;
+                default:
+                    System.out.println("Pilihan Anda Salah!");
+            }                    
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     
+    public void insert(){
+        System.out.println("Masukan data yang akan di input");
+        
+        System.out.print("ID Buku = ");
+        idBuku = inputConsole.next();
+        
+        System.out.print("Judul = ");
+        judul = inputConsole.next();
+        
+        System.out.print("Pengarang = ");
+        pengarang = inputConsole.next();
+        
+        System.out.print("Penerbit = ");
+        penerbit = inputConsole.next();
+        
+        System.out.print("Tahun = ");
+        tahun = Integer.parseInt(inputINT.next());
         
 }
