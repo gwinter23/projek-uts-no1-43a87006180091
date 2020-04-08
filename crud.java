@@ -16,3 +16,17 @@ import java.util.Scanner;
  *
  * @author ar
  */
+
+public class CRUD {
+    
+    static Connection koneksi = new databasef().konekToDB();
+    static Statement stmt;
+    static ResultSet rs;
+    
+    int Tahun;
+    String Judul, Pengarang, Penerbit, IdBuku;
+    
+    
+    Scanner inputConsole = new Scanner(System.in);
+    Scanner inputINT = new Scanner(System.in);
+    
