@@ -22,7 +22,7 @@ public class Koneksi {
             Class.forName("com.mysql.jdbc.Driver");
             //System.out.println("Koneksi Driver berhasil!");
         } catch (Exception e) {
-            System.err.println("Koneksi Driver gagal!" + e.getMessage() );
+            System.err.println("Koneksi Driver gagal dapat cek root login dan password!" + e.getMessage() );
         }
     }
 
@@ -36,7 +36,7 @@ public Connection konekToDB(){
             koneksi = DriverManager.getConnection(url, user, password);
             //System.out.println("Koneksi Database Berhasil!");
         } catch (Exception e) {
-            System.err.println("Koneksi Database gagal! " + e.getMessage());
+            System.err.println("Koneksi Driver gagal dapat cek root login dan password! " + e.getMessage());
         }
         return koneksi;
         
