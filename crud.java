@@ -36,5 +36,10 @@ public class CRUD {
         System.out.println("1. Insert Data");
         System.out.println("2. Show Data");
         System.out.println("3. Edit Data");
-        System.out.println("4. Delete Data");
+        System.out.println("4. Hapus Data");
+        System.out.println("0. Keluar");
+        System.out.println("");
+        System.out.print("PILIHAN> ");
+    
         
+}
